@@ -38,3 +38,6 @@ ENV/
 .env
 *.secret
 *.private
+
+# Untracked dirs
+/data
