@@ -1,0 +1,23 @@
+[tool.ruff]
+# Set the maximum line length to 100.
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+
+[tool.ruff.lint.pydocstyle]
+# Set google docstring style guide
+convention = "google"
