@@ -36,6 +36,7 @@ ENV/
 
 # Confidential files
 .env
+*.env
 *.secret
 *.private
 
